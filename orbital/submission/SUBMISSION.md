@@ -34,8 +34,8 @@ The sound of the starter's pistol has travelled 3.3 m, so lane 7 has not heard t
 gun yet.
 
 Speed is the selection rule, the race and the joke. Orbits are solved in Geometry
-Nodes from real Keplerian elements. Spec and code written with AI assistance
-(Claude). No AI images or audio, no third party assets.
+Nodes from real Keplerian elements. Code written by AI (Claude Code), spec with
+AI assistance. No AI images or audio, no third party assets.
 ```
 
 ---
@@ -90,7 +90,10 @@ At that speed 100 m takes 9.60 ms. The race runs at 469x slow motion so it lasts
 
 The last card says the winner was launched in 2021 and nobody is steering it.
 
-## How I built it
+## How it was built
+
+I did not write the code myself. Claude Code wrote it from the spec, I directed it and gave feedback on the renders (for example captions overlapping and the sound being too high pitched).
+
 
 - `fetch.py` downloads three CelesTrak queries (debris, rocket bodies, stations), once, and caches them.
 - `rank.py` (plain Python) filters the catalogue, computes perigee speed for every object, picks the heats, the finalists and the race table, and writes JSON. Every number on screen comes from these files or a constant listed in `sources.md`, and the build fails if a number has no source.
@@ -116,7 +119,7 @@ The last card says the winner was launched in 2021 and nobody is steering it.
 
 ## AI and assets
 
-The spec and the code were written with AI assistance (Claude). No AI generated images, video or audio. No third party models, textures or sounds. The only thing not generated is the font, DejaVu Sans Mono, which ships with Blender. Orbital data is CelesTrak public data, used as input data.
+The code was written by AI (Claude Code, Anthropic). The spec was written with AI assistance. No AI generated images, video or audio. No third party models, textures or sounds. The only thing not generated is the font, DejaVu Sans Mono, which ships with Blender. Orbital data is CelesTrak public data, used as input data.
 ```
 
 ### Built with
@@ -162,7 +165,7 @@ Made in Blender 5.2 with Python. One script builds the whole film from an empty 
 
 Entry for the RenderJuice Blender Animation & Programmatic Rendering Contest, theme Speed.
 
-Spec and code written with AI assistance (Claude). No AI images or audio.
+Code written by AI (Claude Code), spec with AI assistance. No AI images or audio.
 
 Source code: https://github.com/apn201/velocity-100m-orbital
 ```
