@@ -1,6 +1,7 @@
 # VELOCITY // 100 M ORBITAL - submission texts
 
 Video: https://youtu.be/bkjEwBM9kNo
+Source: https://github.com/apn201/velocity-100m-orbital
 
 Files in this folder:
 
@@ -22,6 +23,7 @@ Engine:   Blender 5.2.2 LTS, EEVEE, 32 samples
 Scene:    built by one Python script from an empty scene, no modelling, no sculpting, no hand keyframes
 Data:     real orbital elements of 12,379 tracked objects, CelesTrak public catalogue (US Space Force)
 Video:    https://youtu.be/bkjEwBM9kNo
+Source:   https://github.com/apn201/velocity-100m-orbital
 
 Every tracked piece of space debris and every spent rocket stage, on its real orbit.
 Qualifying heats knock out the slow ones until five remain. Nothing from low orbit
@@ -124,6 +126,7 @@ blender, python, bpy, geometry-nodes, eevee, celestrak, ffmpeg, claude-code
 ### "Try it out" links
 
 - https://youtu.be/bkjEwBM9kNo
+- https://github.com/apn201/velocity-100m-orbital
 
 ### Image gallery (in this order)
 
@@ -160,6 +163,8 @@ Made in Blender 5.2 with Python. One script builds the whole film from an empty 
 Entry for the RenderJuice Blender Animation & Programmatic Rendering Contest, theme Speed.
 
 Spec and code written with AI assistance (Claude). No AI images or audio.
+
+Source code: https://github.com/apn201/velocity-100m-orbital
 ```
 
 ### Tags
