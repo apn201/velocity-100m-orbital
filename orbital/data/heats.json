@@ -1,0 +1,33 @@
+{
+ "epoch": "2026-10-19T00:00:00Z",
+ "leo_count": 10005,
+ "heats": [
+  {
+   "label": "HEAT 1",
+   "threshold_km_s": 7.0,
+   "remain": 11635,
+   "leo_remain": 10005,
+   "note": "HIGH ORBITS ARE SLOW"
+  },
+  {
+   "label": "HEAT 2",
+   "threshold_km_s": 7.66,
+   "remain": 2069,
+   "leo_remain": 639,
+   "note": "FASTER THAN THE ISS"
+  },
+  {
+   "label": "HEAT 3",
+   "threshold_km_s": 10.0,
+   "remain": 270,
+   "leo_remain": 0,
+   "note": "LOW ORBIT IS OUT"
+  },
+  {
+   "label": "FINAL",
+   "threshold_km_s": 10.313306181138442,
+   "remain": 5,
+   "note": "THE FIVE FASTEST GO THROUGH"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "comment": "Screen-space anchors in 1920x1080 pixels, origin top-left. Text y values are baselines. Sizes are font em heights in px.",
+  "resolution": [1920, 1080],
+  "title_safe": [96, 54, 1824, 1026],
+  "title": {"pos": [960, 560], "size": 72},
+  "caption": {"pos": [120, 150], "size": 48, "line2": [120, 206], "size2": 34},
+  "heat": {"label": [120, 812], "label_size": 40, "note": [330, 812], "note_size": 32,
+           "thr": [120, 892], "thr_size": 64, "remain": [120, 966], "remain_size": 48},
+  "fineprint": {"pos": [1800, 1000], "size": 28},
+  "cards": {"x": 1800, "y": 330, "step": 62, "size": 34, "head_size": 30},
+  "counter": {"pos": [960, 196], "size": 128, "label": [960, 250], "label_size": 30},
+  "slowmo": {"pos": [1800, 120], "size": 34},
+  "lanes": {"x": 1800, "size": 30},
+  "results": {"x0": 360, "x1": 1560, "y": 300, "step": 74, "size": 44, "head_size": 32},
+  "final": {"pos": [120, 820], "size": 64, "gap": 82}
+}

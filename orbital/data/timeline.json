@@ -1,0 +1,55 @@
+{
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 672,
+  "segments": [
+    {"key": "field",      "start": 1,   "end": 48},
+    {"key": "qualifying", "start": 49,  "end": 252},
+    {"key": "finalists",  "start": 253, "end": 312},
+    {"key": "dive",       "start": 313, "end": 348},
+    {"key": "dash",       "start": 349, "end": 504},
+    {"key": "meanwhile",  "start": 505, "end": 564},
+    {"key": "results",    "start": 565, "end": 624},
+    {"key": "final",      "start": 625, "end": 672}
+  ],
+  "heats": {
+    "comment": "frames for each heat: ramp start, ramp frames, hold until the next heat. Thresholds come from heats.json.",
+    "schedule": [
+      {"label": "HEAT 1", "start": 49,  "ramp": 22},
+      {"label": "HEAT 2", "start": 99,  "ramp": 30},
+      {"label": "HEAT 3", "start": 163, "ramp": 26},
+      {"label": "FINAL",  "start": 221, "ramp": 18}
+    ],
+    "grey_frames": 2,
+    "fade_frames": 8,
+    "trails_from": 189
+  },
+  "timelapse": {
+    "comment": "simulated seconds per screen second. 712x = one ISS-height revolution in about 8 s.",
+    "base": 712,
+    "dive": 40,
+    "winner_perigee_frame": 348
+  },
+  "camera": {
+    "comment": "globe camera waypoints [frame, distance (Earth radii), elevation deg, azimuth deg], eased between",
+    "waypoints": [[1, 14.0, 20, -46], [60, 11.0, 23, -36], [96, 7.6, 25, -28], [132, 7.2, 27, -20],
+                  [166, 7.8, 28, -14], [236, 33.0, 34, 10], [312, 31.0, 37, 20]],
+    "dive_end_dist": 0.05,
+    "point_px": 1.5,
+    "trail_px": 0.9,
+    "graticule_px": 1.3
+  },
+  "race": {
+    "comment": "slow motion is computed so the winner's 100 m lasts race_frames on screen",
+    "lanes_in": 349,
+    "preroll_frames": 30,
+    "race_frames": 108,
+    "cam_dist_m": 74.0,
+    "cam_elev_deg": 52.0,
+    "leader_screen_x": 0.56,
+    "preroll_m": 30.0,
+    "meanwhile_cam": {"target": [0.8, 4.2, 0.0], "dist_m": 26.0, "elev_deg": 34.0}
+  },
+  "flash_frames": 4,
+  "title": [6, 40]
+}

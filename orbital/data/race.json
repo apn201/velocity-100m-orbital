@@ -1,0 +1,97 @@
+{
+ "track_m": 100.0,
+ "winner_time_ms": 9.601257450913728,
+ "sound_m_s": 343.0,
+ "sound_m_at_finish": 3.293231305663409,
+ "lane_width_m": 1.22,
+ "lanes": [
+  {
+   "lane": 1,
+   "id": 47307,
+   "cospar": "2021-001B",
+   "name": "FALCON 9 R/B",
+   "type": "ROCKET BODY",
+   "launch_year": 2021,
+   "v_km_s": 10.41530242379692,
+   "time_ms": 9.601257450913728,
+   "dist_at_winner_m": 100.0,
+   "gap_m": 0.0
+  },
+  {
+   "lane": 2,
+   "id": 62853,
+   "cospar": "2025-021B",
+   "name": "FALCON 9 R/B",
+   "type": "ROCKET BODY",
+   "launch_year": 2025,
+   "v_km_s": 10.400041085522739,
+   "time_ms": 9.615346629659367,
+   "dist_at_winner_m": 99.85347196218409,
+   "gap_m": 0.14652803781591217
+  },
+  {
+   "lane": 3,
+   "id": 41590,
+   "cospar": "2016-038C",
+   "name": "FALCON 9 R/B",
+   "type": "ROCKET BODY",
+   "launch_year": 2016,
+   "v_km_s": 10.373836904688167,
+   "time_ms": 9.63963487365102,
+   "dist_at_winner_m": 99.60187887570108,
+   "gap_m": 0.39812112429892466
+  },
+  {
+   "lane": 4,
+   "id": 60234,
+   "cospar": "2024-127B",
+   "name": "FALCON 9 R/B",
+   "type": "ROCKET BODY",
+   "launch_year": 2024,
+   "v_km_s": 10.363240265422641,
+   "time_ms": 9.649491610616607,
+   "dist_at_winner_m": 99.5001378139983,
+   "gap_m": 0.49986218600170673
+  },
+  {
+   "lane": 5,
+   "id": 38071,
+   "cospar": "2012-003B",
+   "name": "DELTA 4 R/B",
+   "type": "ROCKET BODY",
+   "launch_year": 2012,
+   "v_km_s": 10.321219753203058,
+   "time_ms": 9.68877733360597,
+   "dist_at_winner_m": 99.09668805795881,
+   "gap_m": 0.903311942041185
+  },
+  {
+   "lane": 6,
+   "id": 25544,
+   "cospar": "1998-067A",
+   "name": "ISS",
+   "type": "STATION",
+   "launch_year": 1998,
+   "v_km_s": 7.662442924896628,
+   "time_ms": 13.050668172037193,
+   "dist_at_winner_m": 73.56908722486493,
+   "gap_m": 26.43091277513507
+  },
+  {
+   "lane": 7,
+   "id": null,
+   "name": "WORLD RECORD PACE",
+   "type": "HUMAN",
+   "launch_year": null,
+   "v_km_s": 0.010438413361169102,
+   "time_ms": 9580.0,
+   "dist_at_winner_m": 0.0,
+   "gap_m": 100.0,
+   "dns": true,
+   "reaction_s": 0.15
+  }
+ ],
+ "sound_reaches_lane": 3,
+ "lane7_dist_m": 7.93,
+ "slow_motion_factor": null
+}

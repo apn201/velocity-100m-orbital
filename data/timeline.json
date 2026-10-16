@@ -1,0 +1,53 @@
+{
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 576,
+  "segments": [
+    {"key": "boot",   "start": 1,   "end": 36,  "layer": null},
+    {"key": "ground", "start": 37,  "end": 144, "layer": "L1", "frame": "ground"},
+    {"key": "earth",  "start": 145, "end": 240, "layer": "L2", "frame": "earth"},
+    {"key": "sun",    "start": 241, "end": 336, "layer": "L3", "frame": "sun"},
+    {"key": "galaxy", "start": 337, "end": 432, "layer": "L4", "frame": "galaxy"},
+    {"key": "cmb",    "start": 433, "end": 504, "layer": "L5", "frame": "cmb"},
+    {"key": "local",  "start": 505, "end": 576, "layer": "L1", "frame": "ground"}
+  ],
+  "zoom": {
+    "comment": "cinematic only. Log-zoom gap (natural log) from each layer's rest scale to the next, and the frames each pull-out takes.",
+    "gaps": {"L2": 5.0, "L3": 5.6, "L4": 5.9, "L5": 6.2},
+    "durations": {"L2": 36, "L3": 36, "L4": 36, "L5": 26},
+    "drift_per_frame": 0.0035,
+    "handoff_px": 6.0,
+    "crossfade_frames": 6
+  },
+  "hero_px": {"L1": 480, "L2": 800, "L3": 1200, "L4": 1950, "L5": 900},
+  "event": {
+    "comment": "frame-change event, offsets from the event start (spec 4.3)",
+    "amber_frames": 20,
+    "dust_fade": [2, 10],
+    "roll_start": 4,
+    "roll_steps": 12,
+    "tick_land": 16,
+    "white_fade": 2
+  },
+  "boot": {
+    "grid_fade": [1, 12],
+    "crosshair_draw": [6, 18],
+    "ticks_draw": [10, 24],
+    "ladder_draw": [18, 32],
+    "title_flicker": [12, 34]
+  },
+  "passes": {
+    "saturn_v":   {"layer": "L2", "after_event": 14, "frames": 44},
+    "pioneer_10": {"layer": "L3", "after_event": 14, "frames": 50}
+  },
+  "final": {
+    "motion_detected": 529,
+    "reference_frame": 541,
+    "black": 576
+  },
+  "slow_motion": {
+    "comment": "cinematic only. 1:1200 makes a 1-in-10 in rifling twist read as 1 rev/s on screen.",
+    "factor": 1200,
+    "twist_m": 0.254
+  }
+}

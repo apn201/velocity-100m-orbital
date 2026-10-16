@@ -1,0 +1,115 @@
+{
+  "generated_utc": "2026-10-16T08:26:52+00:00",
+  "epoch_utc": "2026-10-31T23:59:00Z",
+  "site": {
+    "lat_deg": 60.9,
+    "lon_deg": 25.0,
+    "height_m": 0.0,
+    "direction": "due east, horizontal"
+  },
+  "muzzle_m_s": 304.8,
+  "frames": [
+    {
+      "key": "ground",
+      "name": "GROUND",
+      "method": "ITRS: muzzle vector only, ground point at rest",
+      "speed_km_s": 0.3048,
+      "display": "0.305",
+      "units": "km/s",
+      "approx": false,
+      "source": "frames.py:ground"
+    },
+    {
+      "key": "earth",
+      "name": "EARTH-CENTRED",
+      "method": "GCRS: muzzle + Earth rotation (astropy ITRS->GCRS with velocity)",
+      "speed_km_s": 0.5315753811990109,
+      "display": "0.532",
+      "units": "km/s",
+      "approx": false,
+      "source": "frames.py:earth"
+    },
+    {
+      "key": "sun",
+      "name": "SUN-CENTRED",
+      "method": "HCRS: + Earth orbital motion (astropy GCRS->HCRS)",
+      "speed_km_s": 30.46609178302562,
+      "display": "30.5",
+      "units": "km/s",
+      "approx": false,
+      "source": "frames.py:sun"
+    },
+    {
+      "key": "galaxy",
+      "name": "GALACTOCENTRIC",
+      "method": "astropy Galactocentric, default parameter set",
+      "speed_km_s": 234.82168563000897,
+      "display": "235",
+      "units": "km/s",
+      "approx": false,
+      "source": "frames.py:galaxy"
+    },
+    {
+      "key": "cmb",
+      "name": "CMB REST FRAME",
+      "method": "HCRS velocity + Planck 2018 solar dipole vector",
+      "speed_km_s": 392.54669440684467,
+      "display": "393",
+      "units": "km/s",
+      "approx": false,
+      "source": "frames.py:cmb"
+    }
+  ],
+  "span": {
+    "ratio": 1287.8828556655008,
+    "display": "x1,300"
+  },
+  "comparisons": [
+    {
+      "key": "saturn_v",
+      "name": "SATURN V",
+      "speed_km_s": 10.84,
+      "display": "~10.8",
+      "units": "km/s",
+      "frame": "earth",
+      "detail": "TLI",
+      "approx": true,
+      "source": "sources.md#saturn-v"
+    },
+    {
+      "key": "pioneer_10",
+      "name": "PIONEER 10",
+      "speed_km_s": 11.9,
+      "display": "~12",
+      "units": "km/s",
+      "frame": "sun",
+      "detail": "",
+      "approx": true,
+      "source": "sources.md#pioneer-10"
+    }
+  ],
+  "astropy_version": "8.0.2",
+  "galactocentric": {
+    "galcen_distance_kpc": 8.122,
+    "galcen_v_sun_km_s": [
+      12.9,
+      245.6,
+      7.78
+    ],
+    "z_sun_pc": 20.8,
+    "roll_deg": 0.0,
+    "defaults": "latest"
+  },
+  "sun_direction_enu": [
+    0.46747370423216467,
+    0.6207762952327658,
+    -0.6293688323459788
+  ],
+  "cmb_dipole": {
+    "v_km_s": 369.82,
+    "l_deg": 264.021,
+    "b_deg": 48.253,
+    "source": "Planck 2018"
+  },
+  "python": "3.14.3"
+}

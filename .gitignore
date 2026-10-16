@@ -1,0 +1,12 @@
+# renders and build products (the film is on YouTube)
+output/
+orbital/output/
+project/
+orbital/project/
+*.blend
+*.blend1
+__pycache__/
+*.pyc
+
+# raw CelesTrak downloads are never published (spec 2.1); the derived JSON in orbital/data is
+orbital/data/raw/
